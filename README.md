@@ -36,7 +36,7 @@ $oiContact = iContactApi::getInstance();
 
 // Try to make the call(s)
 
-try {
+```try {
 	//  are examples on how to call the  iContact PHP API class
 	// Grab all contacts
 	var_dump($oiContact->getContacts());
@@ -68,7 +68,7 @@ try {
 	var_dump($oiContact->getLastRequest());
 	// Grab the last raw response data
 	var_dump($oiContact->getLastResponse());
-}
+}```
 
 
 *Note for contributors:* This is not Code Golf.
