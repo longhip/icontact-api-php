@@ -11,7 +11,7 @@ Installation
 You can install the mailchimp-api using Composer:
 
 ```
-composer require mizanur/icontact-api-php
+composer require longhiphd/icontact-api-php
 ```
 
 Examples
