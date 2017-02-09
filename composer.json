@@ -1,0 +1,25 @@
+{
+    "name": "longhiphd/icontact-api-php",
+    "type": "library",
+	"version": "2.0",
+    "description": "iContact API for PHP",
+    "keywords": ["icontact-api-php"],
+    "homepage": "https://github.com/longhip/icontact-api-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Long Nguyen",
+			"email" : "longhip.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "iContact": "src/" }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
